@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* flex: 1 1 auto; */
+}
+
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
