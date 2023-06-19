@@ -80,7 +80,7 @@ button {
     color: #F9FAF8;
     border-radius: 8px;
     text-align: center;
-    border: none
+    border: none;
 }
 
 .heading-intro {
@@ -127,4 +127,30 @@ button {
     padding-bottom: 90px;
     font-size: 16px;
     color: rgb(140, 154, 167);
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-family: serif;
+    font-weight: 300;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    color: slategray;
+    padding: 150px 250px;
+    padding-bottom: 20px;
+    text-align:left;
+}
+.author {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: right;
+    padding: 20px 250px;
+    padding-bottom: 150px;
 }
