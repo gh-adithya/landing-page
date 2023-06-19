@@ -72,7 +72,7 @@ ul {
 
 }
 
-button {
+.old-button {
     width: 200px;
     height: 35px;
     background-color: #3882F6;
@@ -153,4 +153,31 @@ button {
     text-align: right;
     padding: 20px 250px;
     padding-bottom: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 170px;
+    padding: 40px 70px;
+    border-radius: 14px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.new-button {
+    background-color: #3882F6;
+    width: 200px;
+    height: 35px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 8px;
+    text-align: center;
+    border-style:double;
 }
